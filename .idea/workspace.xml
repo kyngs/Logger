@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/ConsoleStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +53,37 @@
       <option name="presentableId" value="Default" />
       <updated>1596981740140</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1596982514776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596982514776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="94" key="#Project_Structure" timestamp="1596982243919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982243919" />
+    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1596982511547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982511547" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1596982151449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982151449" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1596982597826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982597826" />
     <state x="551" y="94" key="new project wizard" timestamp="1596982204578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

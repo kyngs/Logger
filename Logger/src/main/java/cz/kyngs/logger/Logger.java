@@ -24,9 +24,13 @@
 
 package cz.kyngs.logger;
 
+import org.jetbrains.annotations.Nullable;
+
 import java.io.PrintStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+import java.util.function.Consumer;
 
 /**
  *
@@ -49,12 +53,26 @@ public final class Logger {
      */
 
     protected Logger(boolean debug, PrintStream originalErr, PrintStream originalOut) {
+        this(debug, originalErr, originalOut, null);
+    }
+
+    public Logger(boolean debug, PrintStream originalErr, PrintStream originalOut, @Nullable Consumer<String> onCommandReceived) {
         this.originalErr = originalErr;
         this.originalOut = originalOut;
         formatter = DateTimeFormatter.ofPattern("HH:mm:ss:SSS");
         System.setErr(new PrintStream(new ConsoleStream(Level.ERROR, true, this)));
         System.setOut(new PrintStream(new ConsoleStream(Level.INFO, false, this)));
         this.debug = debug;
+
+        if (onCommandReceived != null){
+            new Thread(() -> {
+                while (true){
+                    Scanner scanner = new Scanner(System.in);
+                    onCommandReceived.accept(scanner.nextLine());
+                }
+            }, "Console Reader Thread").start();
+        }
+
     }
 
     /**

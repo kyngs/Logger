@@ -25,6 +25,7 @@
 package cz.kyngs.logger;
 
 import java.io.PrintStream;
+import java.util.function.Consumer;
 
 /**
  * Simple LogManager
@@ -49,6 +50,10 @@ public class LogManager {
      */
     public Logger createLogger(boolean debug) {
         return new Logger(debug, ERR, OUT);
+    }
+
+    public Logger createLogger(boolean debug, Consumer<String> onCommandReceived){
+        return new Logger(debug, ERR, OUT, onCommandReceived);
     }
 
 }
