@@ -29,7 +29,9 @@ import org.jetbrains.annotations.Nullable;
 import java.io.PrintStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 import java.util.function.Consumer;
 
 /**
@@ -42,6 +44,7 @@ public final class Logger {
     private final PrintStream originalErr;
     private final PrintStream originalOut;
     private final boolean debug;
+    private final Set<Consumer<String>> onCommandReceivedListeners;
 
     /**
      * Only constructor of Logger.
@@ -60,18 +63,24 @@ public final class Logger {
         this.originalErr = originalErr;
         this.originalOut = originalOut;
         formatter = DateTimeFormatter.ofPattern("HH:mm:ss:SSS");
+        onCommandReceivedListeners = new HashSet<>();
         System.setErr(new PrintStream(new ConsoleStream(Level.ERROR, true, this)));
         System.setOut(new PrintStream(new ConsoleStream(Level.INFO, false, this)));
         this.debug = debug;
-
-        if (onCommandReceived != null){
-            new Thread(() -> {
-                while (true){
-                    Scanner scanner = new Scanner(System.in);
-                    onCommandReceived.accept(scanner.nextLine());
+        if (onCommandReceived != null) onCommandReceivedListeners.add(onCommandReceived);
+        new Thread(() -> {
+            while (true){
+                Scanner scanner = new Scanner(System.in);
+                String in = scanner.nextLine();
+                synchronized (onCommandReceivedListeners){
+                    for (Consumer<String> onCommandReceivedListener : onCommandReceivedListeners) {
+                        onCommandReceivedListener.accept(in);
+                    }
                 }
-            }, "Console Reader Thread").start();
-        }
+            }
+
+        }, "Console Reader Thread").start();
+
 
     }
 

@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_java5_18_0_0.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -60,30 +58,38 @@
       <option name="project" value="LOCAL" />
       <updated>1596982514776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added command listener">
+      <created>1597076263041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597076263041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added command listener" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added command listener" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="94" key="#Project_Structure" timestamp="1596982243919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982243919" />
-    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1596982511547">
+    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1597076259689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982511547" />
+    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597076259689" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1596982151449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982151449" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1596982597826">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597076281948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982597826" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597076281948" />
     <state x="551" y="94" key="new project wizard" timestamp="1596982204578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
