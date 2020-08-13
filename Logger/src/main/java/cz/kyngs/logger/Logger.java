@@ -101,6 +101,12 @@ public final class Logger {
         if (debug) write(message, Level.DEBUG, throwables);
     }
 
+    public void addCommandListener(Consumer<String> listener){
+        synchronized (onCommandReceivedListeners){
+            onCommandReceivedListeners.add(listener);
+        }
+    }
+
     /**
      *
      * @param message warning message
