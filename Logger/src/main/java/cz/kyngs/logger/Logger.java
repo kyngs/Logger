@@ -67,21 +67,24 @@ public final class Logger {
         System.setErr(new PrintStream(new ConsoleStream(Level.ERROR, true, this)));
         System.setOut(new PrintStream(new ConsoleStream(Level.INFO, false, this)));
         this.debug = debug;
-        if (onCommandReceived != null) onCommandReceivedListeners.add(onCommandReceived);
-        new Thread(() -> {
-            while (true){
-                Scanner scanner = new Scanner(System.in);
-                String in = scanner.nextLine();
-                synchronized (onCommandReceivedListeners){
-                    for (Consumer<String> onCommandReceivedListener : onCommandReceivedListeners) {
-                        onCommandReceivedListener.accept(in);
+        if (onCommandReceived != null) addCommandListener(onCommandReceived);
+    }
+
+    private void checkIfThreadShouldStart(){
+        if (onCommandReceivedListeners.size() >= 1){
+            new Thread(() -> {
+                while (true){
+                    Scanner scanner = new Scanner(System.in);
+                    String in = scanner.nextLine();
+                    synchronized (onCommandReceivedListeners){
+                        for (Consumer<String> onCommandReceivedListener : onCommandReceivedListeners) {
+                            onCommandReceivedListener.accept(in);
+                        }
                     }
                 }
-            }
 
-        }, "Console Reader Thread").start();
-
-
+            }, "Console Reader Thread").start();
+        }
     }
 
     /**
@@ -105,6 +108,7 @@ public final class Logger {
         synchronized (onCommandReceivedListeners){
             onCommandReceivedListeners.add(listener);
         }
+        checkIfThreadShouldStart();
     }
 
     /**

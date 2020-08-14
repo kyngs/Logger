@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
-    </list>
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597333479342</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Edited command listener system">
+      <created>1597333554622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597333554622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -86,21 +91,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982243919" />
-    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1597076259689">
+    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1597333552039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597076259689" />
+    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597333552039" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1596982151449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982151449" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597076281948">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597333558037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597076281948" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597333558037" />
     <state x="551" y="94" key="new project wizard" timestamp="1596982204578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="94" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982204578" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597333361866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597333361866" />
   </component>
 </project>
