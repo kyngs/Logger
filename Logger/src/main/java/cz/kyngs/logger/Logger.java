@@ -71,7 +71,7 @@ public final class Logger {
     }
 
     private void checkIfThreadShouldStart(){
-        if (onCommandReceivedListeners.size() >= 1){
+        if (onCommandReceivedListeners.size() == 1){
             new Thread(() -> {
                 while (true){
                     Scanner scanner = new Scanner(System.in);
