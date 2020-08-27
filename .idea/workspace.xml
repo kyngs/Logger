@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="Added command system. Try it by instantiating LogCommandHandler.java">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +45,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15154749" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -86,32 +97,43 @@
       <option name="project" value="LOCAL" />
       <updated>1597426598441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edited command listener system">
+      <created>1597593365372</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597593365372</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added command listener" />
     <MESSAGE value="Edited command listener system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited command listener system" />
+    <MESSAGE value="Added command system. Try it by instantiating LogCommandHandler.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added command system. Try it by instantiating LogCommandHandler.java" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="442" y="94" key="#Project_Structure" timestamp="1596982243919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982243919" />
-    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1597426595447">
+    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1597593356101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597426595447" />
+    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597593356101" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1596982151449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982151449" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597426597573">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1597593396688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597426597573" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597593396688" />
     <state x="551" y="94" key="new project wizard" timestamp="1596982204578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

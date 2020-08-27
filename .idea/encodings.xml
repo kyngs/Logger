@@ -5,5 +5,14 @@
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Level.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Command.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutionResult.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutor.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandSender.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Console.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/commands/DonationsCommand.java" charset="UTF-8" />
   </component>
 </project>
