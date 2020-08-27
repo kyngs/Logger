@@ -17,7 +17,8 @@ public class LogCommandHandler implements CommandHandler, Console {
         logger.addCommandListener(this);
     }
 
-    private void register(String name, CommandExecutor commandExecutor) {
+    @Override
+    public void register(String name, CommandExecutor commandExecutor) {
         registerCommand(new LogCommand(commandExecutor), name);
     }
 
