@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600966756811</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Improved LogBuilder;">
+      <created>1600967406685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600967406685</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,20 +162,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553119947" />
-    <state x="2507" y="2" key="CommitChangelistDialog2" timestamp="1600966753709">
+    <state x="2507" y="2" key="CommitChangelistDialog2" timestamp="1600967403630">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966098129" />
-    <state x="2507" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600966753709" />
+    <state x="2507" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600967403630" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1598553195358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553195358" />
-    <state x="2472" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600966758183">
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600967412491">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966110187" />
-    <state x="2472" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600966758183" />
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600967412491" />
     <state x="2519" y="0" width="1337" height="1023" maximized="true" key="dock-window-1" timestamp="1600965768914">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
