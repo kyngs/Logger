@@ -63,8 +63,7 @@ public final class Logger {
         if (onCommandReceivedListeners.size() == 1){
             new Thread(() -> {
                 while (true){
-                    if (consolePrefix != null) originalOut.println(consolePrefix);
-
+                    if (consolePrefix != null) originalOut.print(consolePrefix);
                     Scanner scanner = new Scanner(System.in);
                     String in = scanner.nextLine();
                     synchronized (onCommandReceivedListeners) {

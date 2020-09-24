@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600966102050</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Improved LogBuilder;">
+      <created>1600966437116</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600966437116</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,18 +148,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553119947" />
-    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1600966098129">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2507" y="2" key="CommitChangelistDialog2" timestamp="1600966433177">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966098129" />
+    <state x="2507" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600966433177" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1598553195358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553195358" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600966110187">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600966471041">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966110187" />
+    <state x="2472" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600966471041" />
     <state x="2519" y="0" width="1337" height="1023" maximized="true" key="dock-window-1" timestamp="1600965768914">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
