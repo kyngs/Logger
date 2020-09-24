@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
-    </list>
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598553810618</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Improved LogBuilder;">
+      <created>1600966102050</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600966102050</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,7 +122,8 @@
     <MESSAGE value="Edited command listener system" />
     <MESSAGE value="Added command system. Try it by instantiating LogCommandHandler.java" />
     <MESSAGE value="Minor bugfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor bugfix" />
+    <MESSAGE value="Improved LogBuilder;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved LogBuilder;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -138,18 +141,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553119947" />
-    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1598553807482">
+    <state x="587" y="2" key="CommitChangelistDialog2" timestamp="1600966098129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553807482" />
+    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966098129" />
     <state x="442" y="94" key="SettingsEditor" timestamp="1598553195358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553195358" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1598553821434">
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600966110187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553821434" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966110187" />
     <state x="2519" y="0" width="1337" height="1023" maximized="true" key="dock-window-1" timestamp="1600965768914">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

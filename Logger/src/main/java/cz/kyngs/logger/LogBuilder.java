@@ -87,4 +87,9 @@ public class LogBuilder {
         this.err = err;
         return this;
     }
+
+    public Logger build() {
+        return new Logger(debug, err, out, onCommandReceived, consolePrefix);
+    }
+
 }
