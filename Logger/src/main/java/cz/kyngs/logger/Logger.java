@@ -35,7 +35,6 @@ import java.util.Set;
 import java.util.function.Consumer;
 
 /**
- *
  * @author kyngs
  */
 public final class Logger {
@@ -43,25 +42,15 @@ public final class Logger {
     private final DateTimeFormatter formatter;
     private final PrintStream originalErr;
     private final PrintStream originalOut;
+    @Nullable
+    private final String consolePrefix;
     private final boolean debug;
     private final Set<Consumer<String>> onCommandReceivedListeners;
 
-    /**
-     * Only constructor of Logger.
-     * @param debug debug state.
-     * @param originalErr Original System.err
-     * @param originalOut Original System.out
-     * @see System#out
-     * @see System#err
-     */
-
-    protected Logger(boolean debug, PrintStream originalErr, PrintStream originalOut) {
-        this(debug, originalErr, originalOut, null);
-    }
-
-    public Logger(boolean debug, PrintStream originalErr, PrintStream originalOut, @Nullable Consumer<String> onCommandReceived) {
+    protected Logger(boolean debug, PrintStream originalErr, PrintStream originalOut, @Nullable Consumer<String> onCommandReceived, @Nullable String consolePrefix) {
         this.originalErr = originalErr;
         this.originalOut = originalOut;
+        this.consolePrefix = consolePrefix;
         formatter = DateTimeFormatter.ofPattern("HH:mm:ss:SSS");
         onCommandReceivedListeners = new HashSet<>();
         System.setErr(new PrintStream(new ConsoleStream(Level.ERROR, true, this)));
@@ -74,9 +63,11 @@ public final class Logger {
         if (onCommandReceivedListeners.size() == 1){
             new Thread(() -> {
                 while (true){
+                    if (consolePrefix != null) originalOut.println(consolePrefix);
+
                     Scanner scanner = new Scanner(System.in);
                     String in = scanner.nextLine();
-                    synchronized (onCommandReceivedListeners){
+                    synchronized (onCommandReceivedListeners) {
                         for (Consumer<String> onCommandReceivedListener : onCommandReceivedListeners) {
                             onCommandReceivedListener.accept(in);
                         }
@@ -170,6 +161,7 @@ public final class Logger {
         }
 
     }
+
 
 }
 

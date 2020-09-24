@@ -3,7 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/ConsoleStream.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Level.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogBuilder.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Command.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutionResult.java" charset="UTF-8" />
