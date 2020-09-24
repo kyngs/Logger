@@ -5,11 +5,14 @@ import cz.kyngs.logger.Logger;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Consumer;
 
 public class LogCommandHandler implements CommandHandler, Console {
 
     private final Map<String, Command> commandMap;
     private final Logger logger;
+
+    private Consumer<CommandSender> onUnknownCommandFoundAction;
 
     public LogCommandHandler(Logger logger) {
         this.logger = logger;
@@ -20,6 +23,10 @@ public class LogCommandHandler implements CommandHandler, Console {
     @Override
     public void register(String name, CommandExecutor commandExecutor) {
         registerCommand(new LogCommand(commandExecutor), name);
+    }
+
+    public void onUnknownCommandFoundAction(Consumer<CommandSender> onUnknownCommandFoundAction) {
+        this.onUnknownCommandFoundAction = onUnknownCommandFoundAction;
     }
 
     @Override
@@ -52,7 +59,10 @@ public class LogCommandHandler implements CommandHandler, Console {
 
     @Override
     public void accept(String s) {
-        execCommand(this, s);
+        CommandExecutionResult commandExecutionResult = execCommand(this, s);
+        if (commandExecutionResult == CommandExecutionResult.UNKNOWN_COMMAND) {
+            onUnknownCommandFoundAction.accept(this);
+        }
     }
 
     @Override
