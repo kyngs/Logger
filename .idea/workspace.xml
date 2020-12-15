@@ -4,21 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/ConsoleStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/ConsoleStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\snezb\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.6397.94\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1frggU4i1qpN3T4KSIpx9Jp9yOT" />
   <component name="ProjectViewState">
@@ -28,18 +40,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15154749" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\GitHub\Logger\Logger\src\main\java\cz\kyngs\logger" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +76,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596981740140</updated>
+      <workItem from="1602874528749" duration="1701000" />
+      <workItem from="1602922772244" duration="2895000" />
+      <workItem from="1603011246042" duration="2557000" />
+      <workItem from="1603089406190" duration="599000" />
+      <workItem from="1603478596212" duration="6000" />
+      <workItem from="1608053081888" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596982514776</created>
@@ -134,8 +167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1600967406685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Improved LogBuilder;">
+      <created>1600967843524</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600967843524</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
@@ -148,45 +191,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="442" y="94" key="#Project_Structure" timestamp="1596982243919">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="442" y="94" key="#Project_Structure/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982243919" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1600965887256">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600965887256" />
-    <state x="701" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598553119947">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="701" y="342" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553119947" />
-    <state x="2507" y="2" key="CommitChangelistDialog2" timestamp="1600967403630">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="587" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966098129" />
-    <state x="2507" y="2" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600967403630" />
-    <state x="442" y="94" key="SettingsEditor" timestamp="1598553195358">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="442" y="94" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1598553195358" />
-    <state x="2472" y="248" key="Vcs.Push.Dialog.v2" timestamp="1600967412491">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600966110187" />
-    <state x="2472" y="248" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1600967412491" />
-    <state x="2519" y="0" width="1337" height="1023" maximized="true" key="dock-window-1" timestamp="1600965768914">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2519" y="0" width="1337" height="1023" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600965768914" />
-    <state x="551" y="94" key="new project wizard" timestamp="1596982204578">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="94" key="new project wizard/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596982204578" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1597333361866">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597333361866" />
   </component>
 </project>

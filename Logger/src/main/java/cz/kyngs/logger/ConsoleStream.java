@@ -34,13 +34,13 @@ import java.io.OutputStream;
  * @see OutputStream
  * @see System#out
  * @see System#err
- * @see Logger
+ * @see SyncLogger
  */
 public class ConsoleStream extends OutputStream {
 
     private final Level level;
     private final boolean errorStream;
-    private final Logger logger;
+    private final SyncLogger logger;
     private StringBuilder line;
 
     /**
@@ -48,7 +48,7 @@ public class ConsoleStream extends OutputStream {
      * @param errorStream is System.err
      * @param logger      Logger as a backend
      */
-    public ConsoleStream(Level level, boolean errorStream, Logger logger) {
+    public ConsoleStream(Level level, boolean errorStream, SyncLogger logger) {
         this.level = level;
         this.errorStream = errorStream;
         this.logger = logger;

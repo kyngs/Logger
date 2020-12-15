@@ -1,6 +1,6 @@
 package cz.kyngs.logger.command;
 
-import cz.kyngs.logger.Logger;
+import cz.kyngs.logger.SyncLogger;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,14 +10,14 @@ import java.util.function.Consumer;
 public class LogCommandHandler implements CommandHandler, Console {
 
     private final Map<String, Command> commandMap;
-    private final Logger logger;
+    private final SyncLogger logger;
 
     private Consumer<CommandSender> onUnknownCommandFoundAction;
 
-    public LogCommandHandler(Logger logger) {
+    public LogCommandHandler(SyncLogger logger) {
         this.logger = logger;
         commandMap = new HashMap<>();
-        logger.addCommandListener(this);
+        logger.addInputListener(this);
     }
 
     @Override
