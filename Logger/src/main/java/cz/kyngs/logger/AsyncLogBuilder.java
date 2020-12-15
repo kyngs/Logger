@@ -19,4 +19,9 @@ public class AsyncLogBuilder extends SyncLogBuilder {
         this.threadCount = threadCount;
         return this;
     }
+
+    @Override
+    public Logger build() {
+        return new AsyncLogger(debug, err, out, onInputReceived, threadCount);
+    }
 }

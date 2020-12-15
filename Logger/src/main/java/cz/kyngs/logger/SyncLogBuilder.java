@@ -38,22 +38,22 @@ public class SyncLogBuilder {
     private static final PrintStream DEFAULT_OUT;
     private static final PrintStream DEFAULT_ERR;
     private static final boolean DEFAULT_DEBUG;
-    private static final Consumer<String> DEFAULT_ON_COMMAND_RECEIVED;
+    private static final Consumer<String> DEFAULT_ON_INPUT_RECEIVED;
 
     static {
         DEFAULT_OUT = System.out;
         DEFAULT_ERR = System.err;
         DEFAULT_DEBUG = false;
-        DEFAULT_ON_COMMAND_RECEIVED = null;
+        DEFAULT_ON_INPUT_RECEIVED = null;
     }
 
-    private boolean debug;
-    private Consumer<String> onCommandReceived;
-    private PrintStream out, err;
+    protected boolean debug;
+    protected Consumer<String> onInputReceived;
+    protected PrintStream out, err;
 
     protected SyncLogBuilder() {
         debug = DEFAULT_DEBUG;
-        onCommandReceived = DEFAULT_ON_COMMAND_RECEIVED;
+        onInputReceived = DEFAULT_ON_INPUT_RECEIVED;
         out = DEFAULT_OUT;
         err = DEFAULT_ERR;
     }
@@ -63,8 +63,8 @@ public class SyncLogBuilder {
         return this;
     }
 
-    public SyncLogBuilder setOnCommandReceived(Consumer<String> onCommandReceived) {
-        this.onCommandReceived = onCommandReceived;
+    public SyncLogBuilder setOnInputReceived(Consumer<String> onInputReceived) {
+        this.onInputReceived = onInputReceived;
         return this;
     }
 
@@ -78,8 +78,8 @@ public class SyncLogBuilder {
         return this;
     }
 
-    public SyncLogger build() {
-        return new SyncLogger(debug, err, out, onCommandReceived);
+    public Logger build() {
+        return new SyncLogger(debug, err, out, onInputReceived);
     }
 
 }
