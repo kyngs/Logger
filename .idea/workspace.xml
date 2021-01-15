@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/utils/ThreadFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogger.java" afterDir="false" />
-    </list>
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,21 +44,6 @@
       <recent name="D:\Documents\GitHub\Logger\Logger\src\main\java\cz\kyngs\logger" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +58,7 @@
       <workItem from="1603089406190" duration="599000" />
       <workItem from="1603478596212" duration="6000" />
       <workItem from="1608053081888" duration="2666000" />
-      <workItem from="1610725624417" duration="399000" />
+      <workItem from="1610725624417" duration="489000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596982514776</created>
@@ -185,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608055684560</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Repaired sync logger thread detection, edited thread factory creation.">
+      <created>1610726101513</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610726101513</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +187,8 @@
     <MESSAGE value="Improved LogBuilder;" />
     <MESSAGE value="Reworked entire building system. Split old Logger.java to interface Logger and to SyncLogger and with its new async brother AsyncLogger." />
     <MESSAGE value="Hotfix before release." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotfix before release." />
+    <MESSAGE value="Repaired sync logger thread detection, edited thread factory creation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Repaired sync logger thread detection, edited thread factory creation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

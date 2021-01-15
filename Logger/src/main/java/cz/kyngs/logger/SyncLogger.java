@@ -129,9 +129,9 @@ public class SyncLogger implements Logger {
     protected void write(String message, Level level, int reflectionLevel, Thread thread, Throwable... throwables) {
         if (reflectionLevel != -1) {
             StackTraceElement pos = new Throwable().getStackTrace()[reflectionLevel];
-            message = String.format("[%s] [%s] [%s/%s] [%s]: %s\n", LocalDateTime.now().format(formatter), Thread.currentThread().getName(), pos.getClassName().split("\\.")[pos.getClassName().split("\\.").length - 1], pos.getMethodName(), level.name(), message);
+            message = String.format("[%s] [%s] [%s/%s] [%s]: %s\n", LocalDateTime.now().format(formatter), thread.getName(), pos.getClassName().split("\\.")[pos.getClassName().split("\\.").length - 1], pos.getMethodName(), level.name(), message);
         } else {
-            message = String.format("[%s] [%s] [%s]: %s\n", LocalDateTime.now().format(formatter), Thread.currentThread().getName(), level.name(), message);
+            message = String.format("[%s] [%s] [%s]: %s\n", LocalDateTime.now().format(formatter), thread.getName(), level.name(), message);
         }
         if (level == Level.ERROR) {
             originalErr.print(message);
