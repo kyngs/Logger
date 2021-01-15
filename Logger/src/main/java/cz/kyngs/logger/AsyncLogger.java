@@ -4,6 +4,7 @@ import cz.kyngs.logger.utils.ThreadFactoryBuilder;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.PrintStream;
+import java.time.LocalTime;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.function.Consumer;
@@ -21,6 +22,7 @@ public class AsyncLogger extends SyncLogger {
     protected void write(String message, Level level, int reflectionLevel, Throwable... throwables) {
         Thread thread = Thread.currentThread();
         StackTraceElement[] stackTrace = new Throwable().getStackTrace();
-        executor.execute(() -> super.write(message, level, reflectionLevel, stackTrace, thread, throwables));
+        LocalTime time = LocalTime.now();
+        executor.execute(() -> super.write(message, level, reflectionLevel, stackTrace, time, thread, throwables));
     }
 }

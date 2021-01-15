@@ -27,7 +27,7 @@ package cz.kyngs.logger;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.PrintStream;
-import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.Scanner;
@@ -126,12 +126,12 @@ public class SyncLogger implements Logger {
      * @param reflectionLevel StackTrace level
      * @param throwables      Throwables
      */
-    protected void write(String message, Level level, int reflectionLevel, StackTraceElement[] stackTrace, Thread thread, Throwable... throwables) {
+    protected void write(String message, Level level, int reflectionLevel, StackTraceElement[] stackTrace, LocalTime time, Thread thread, Throwable... throwables) {
         if (reflectionLevel != -1) {
             StackTraceElement pos = stackTrace[reflectionLevel];
-            message = String.format("[%s] [%s] [%s/%s] [%s]: %s\n", LocalDateTime.now().format(formatter), thread.getName(), pos.getClassName().split("\\.")[pos.getClassName().split("\\.").length - 1], pos.getMethodName(), level.name(), message);
+            message = String.format("[%s] [%s] [%s/%s] [%s]: %s\n", time.format(formatter), thread.getName(), pos.getClassName().split("\\.")[pos.getClassName().split("\\.").length - 1], pos.getMethodName(), level.name(), message);
         } else {
-            message = String.format("[%s] [%s] [%s]: %s\n", LocalDateTime.now().format(formatter), thread.getName(), level.name(), message);
+            message = String.format("[%s] [%s] [%s]: %s\n", time.format(formatter), thread.getName(), level.name(), message);
         }
         if (level == Level.ERROR) {
             originalErr.print(message);
@@ -153,7 +153,7 @@ public class SyncLogger implements Logger {
     }
 
     protected void write(String message, Level leve, int reflectionLevel, Throwable... throwables) {
-        write(message, leve, reflectionLevel, new Throwable().getStackTrace(), Thread.currentThread(), throwables);
+        write(message, leve, reflectionLevel, new Throwable().getStackTrace(), LocalTime.now(), Thread.currentThread(), throwables);
     }
 
 
