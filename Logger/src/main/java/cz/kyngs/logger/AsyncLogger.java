@@ -1,5 +1,6 @@
 package cz.kyngs.logger;
 
+import cz.kyngs.logger.utils.ThreadFactoryBuilder;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.PrintStream;
@@ -13,11 +14,12 @@ public class AsyncLogger extends SyncLogger {
 
     protected AsyncLogger(boolean debug, PrintStream originalErr, PrintStream originalOut, @Nullable Consumer<String> onCommandReceived, int threadCount) {
         super(debug, originalErr, originalOut, onCommandReceived);
-        executor = Executors.newFixedThreadPool(threadCount, r -> new Thread(r, "Async Logger Thread"));
+        executor = Executors.newFixedThreadPool(threadCount, new ThreadFactoryBuilder().setNameFormat("Async Logger Thread #%d").build());
     }
 
     @Override
     protected void write(String message, Level level, int reflectionLevel, Throwable... throwables) {
-        executor.execute(() -> super.write(message, level, reflectionLevel, throwables));
+        Thread thread = Thread.currentThread();
+        executor.execute(() -> super.write(message, level, reflectionLevel, thread, throwables));
     }
 }

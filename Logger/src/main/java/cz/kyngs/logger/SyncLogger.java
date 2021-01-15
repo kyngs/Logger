@@ -126,7 +126,7 @@ public class SyncLogger implements Logger {
      * @param reflectionLevel StackTrace level
      * @param throwables      Throwables
      */
-    protected void write(String message, Level level, int reflectionLevel, Throwable... throwables) {
+    protected void write(String message, Level level, int reflectionLevel, Thread thread, Throwable... throwables) {
         if (reflectionLevel != -1) {
             StackTraceElement pos = new Throwable().getStackTrace()[reflectionLevel];
             message = String.format("[%s] [%s] [%s/%s] [%s]: %s\n", LocalDateTime.now().format(formatter), Thread.currentThread().getName(), pos.getClassName().split("\\.")[pos.getClassName().split("\\.").length - 1], pos.getMethodName(), level.name(), message);
@@ -150,6 +150,10 @@ public class SyncLogger implements Logger {
             write(message, level, reflectionLevel + 1, throwable.getCause());
         }
 
+    }
+
+    protected void write(String message, Level leve, int reflectionLevel, Throwable... throwables) {
+        write(message, leve, reflectionLevel, Thread.currentThread(), throwables);
     }
 
 
