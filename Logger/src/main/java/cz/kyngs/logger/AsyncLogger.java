@@ -20,6 +20,7 @@ public class AsyncLogger extends SyncLogger {
     @Override
     protected void write(String message, Level level, int reflectionLevel, Throwable... throwables) {
         Thread thread = Thread.currentThread();
-        executor.execute(() -> super.write(message, level, reflectionLevel, thread, throwables));
+        StackTraceElement[] stackTrace = new Throwable().getStackTrace();
+        executor.execute(() -> super.write(message, level, reflectionLevel, stackTrace, thread, throwables));
     }
 }

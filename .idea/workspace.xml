@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="" />
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +61,7 @@
       <workItem from="1603478596212" duration="6000" />
       <workItem from="1608053081888" duration="2666000" />
       <workItem from="1610725624417" duration="489000" />
+      <workItem from="1610726312587" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596982514776</created>
@@ -172,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610726101513</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Hotfix">
+      <created>1610726365239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610726365239</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +198,8 @@
     <MESSAGE value="Reworked entire building system. Split old Logger.java to interface Logger and to SyncLogger and with its new async brother AsyncLogger." />
     <MESSAGE value="Hotfix before release." />
     <MESSAGE value="Repaired sync logger thread detection, edited thread factory creation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Repaired sync logger thread detection, edited thread factory creation." />
+    <MESSAGE value="Hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotfix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
