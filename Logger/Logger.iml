@@ -12,5 +12,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.jetbrains:annotations-java5:18.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.fusesource.jansi:jansi:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.kyngs:SimpleEvent4J:1.0" level="project" />
   </component>
 </module>
