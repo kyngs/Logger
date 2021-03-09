@@ -4,51 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="Hotfix">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_jansi_jansi_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/AsyncLogBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/AsyncLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/ConsoleRedirect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/LogBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/LogVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/SyncLogBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/SyncLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/util/MapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/util/PropertyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/util/StackTraceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/vars/DateVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/vars/LevelVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/vars/StackTraceVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/vars/ThreadVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/vars/TimeVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/Logger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/Logger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/AsyncLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/ConsoleStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Level.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/LogBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/SyncLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Command.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutionResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandExecutor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/CommandSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/Console.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/command/LogCommandHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/cz/kyngs/logger/utils/ThreadFactoryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,17 +77,6 @@
       <option name="MAIN_CLASS_NAME" value="xyz.kyngs.logger.Test" />
       <module name="Logger" />
       <projectPathOnTarget name="projectPathOnTarget" value="/tmp/test/Logger" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,7 +182,8 @@
       <workItem from="1614718405110" duration="2038000" />
       <workItem from="1614782339834" duration="621000" />
       <workItem from="1614877255055" duration="3825000" />
-      <workItem from="1615282848573" duration="2398000" />
+      <workItem from="1615282848573" duration="3672000" />
+      <workItem from="1615292936313" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596982514776</created>
@@ -377,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611417332046</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Rewritten entire thing">
+      <created>1615285330420</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1615285330420</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +349,8 @@
     <MESSAGE value="Hotfix before release." />
     <MESSAGE value="Repaired sync logger thread detection, edited thread factory creation." />
     <MESSAGE value="Hotfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hotfix" />
+    <MESSAGE value="Rewritten entire thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewritten entire thing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
