@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8520a4cf-8000-4210-879c-12e6b2e2c2d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/AsyncLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/AsyncLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Logger/src/main/java/xyz/kyngs/logger/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -32,6 +36,12 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="iucrpbzs" />
   </component>
   <component name="ProjectId" id="1frggU4i1qpN3T4KSIpx9Jp9yOT" />
   <component name="ProjectViewState">
@@ -70,13 +80,33 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Build">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Logger" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="adopt-openj9-16" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="xyz.kyngs.logger.Test" />
       <module name="Logger" />
       <projectPathOnTarget name="projectPathOnTarget" value="/tmp/test/Logger" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +170,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Maven.Build" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +216,13 @@
       <workItem from="1614877255055" duration="3825000" />
       <workItem from="1615282848573" duration="3672000" />
       <workItem from="1615292936313" duration="210000" />
+      <workItem from="1615294286307" duration="75000" />
+      <workItem from="1615926129272" duration="123000" />
+      <workItem from="1615926713904" duration="100000" />
+      <workItem from="1616009764186" duration="385000" />
+      <workItem from="1617797836306" duration="391000" />
+      <workItem from="1617798304827" duration="255000" />
+      <workItem from="1622568801620" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1596982514776</created>
@@ -332,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615285330420</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Hotfix">
+      <created>1615294344056</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615294344056</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,9 +394,9 @@
     <MESSAGE value="Reworked entire building system. Split old Logger.java to interface Logger and to SyncLogger and with its new async brother AsyncLogger." />
     <MESSAGE value="Hotfix before release." />
     <MESSAGE value="Repaired sync logger thread detection, edited thread factory creation." />
-    <MESSAGE value="Hotfix" />
     <MESSAGE value="Rewritten entire thing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewritten entire thing" />
+    <MESSAGE value="Hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotfix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

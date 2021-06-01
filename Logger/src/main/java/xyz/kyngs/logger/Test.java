@@ -7,7 +7,13 @@ public class Test {
                 .async()
                 .build();
         logTest(logger);
-        logger.destroy();
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            for (int i = 0; i < 100; i++) {
+                logger.info("lul");
+            }
+            logger.info("hh");
+            logger.destroy();
+        }, "Shutdown"));
     }
 
     private static void logTest(Logger logger) {

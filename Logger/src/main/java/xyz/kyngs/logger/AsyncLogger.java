@@ -29,8 +29,7 @@ public class AsyncLogger extends SyncLogger {
         try {
             //noinspection ResultOfMethodCallIgnored
             service.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS);
-        } catch (InterruptedException ignored) {
+        } catch (InterruptedException e) {
         }
-
     }
 }
