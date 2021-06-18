@@ -1,4 +1,4 @@
-package xyz.kyngs.logger;
+package com.github.kyngs.logger;
 
 import java.io.IOException;
 import java.io.OutputStream;

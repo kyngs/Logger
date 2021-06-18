@@ -1,4 +1,4 @@
-package xyz.kyngs.logger.util;
+package com.github.kyngs.logger.util;
 
 import java.util.HashMap;
 import java.util.Map;

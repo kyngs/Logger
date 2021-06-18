@@ -1,16 +1,16 @@
-package xyz.kyngs.logger;
+package com.github.kyngs.logger;
 
+import com.github.kyngs.logger.vars.*;
 import org.fusesource.jansi.Ansi;
-import xyz.kyngs.logger.vars.*;
 
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.github.kyngs.logger.LogLevel.ERROR;
+import static com.github.kyngs.logger.LogLevel.WARN;
+import static com.github.kyngs.logger.util.StackTraceInfo.*;
 import static org.fusesource.jansi.Ansi.Color.*;
-import static xyz.kyngs.logger.LogLevel.ERROR;
-import static xyz.kyngs.logger.LogLevel.WARN;
-import static xyz.kyngs.logger.util.StackTraceInfo.*;
 
 public class SyncLogBuilder {
 

@@ -1,8 +1,8 @@
-package xyz.kyngs.logger.vars;
+package com.github.kyngs.logger.vars;
 
-import xyz.kyngs.logger.LogLevel;
-import xyz.kyngs.logger.LogVar;
-import xyz.kyngs.logger.util.PropertyMap;
+import com.github.kyngs.logger.LogLevel;
+import com.github.kyngs.logger.LogVar;
+import com.github.kyngs.logger.util.PropertyMap;
 
 public class LevelVar implements LogVar {
     @Override

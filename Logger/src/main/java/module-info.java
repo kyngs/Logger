@@ -1,5 +1,7 @@
-module kyngs.Logger {
+module com.github.kyngs.logger {
+
     requires org.fusesource.jansi;
     requires SimpleEvent4J;
-    exports xyz.kyngs.logger;
+
+    exports com.github.kyngs.logger;
 }

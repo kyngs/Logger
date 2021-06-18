@@ -32,7 +32,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>xyz.kyngs.logger.Test</mainClass>
+                            <mainClass>com.github.kyngs.logger.Test</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

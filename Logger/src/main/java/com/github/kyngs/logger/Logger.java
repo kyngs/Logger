@@ -1,9 +1,9 @@
-package xyz.kyngs.logger;
+package com.github.kyngs.logger;
 
 import java.io.PrintStream;
 import java.time.LocalTime;
 
-import static xyz.kyngs.logger.LogLevel.*;
+import static com.github.kyngs.logger.LogLevel.*;
 
 public interface Logger {
 

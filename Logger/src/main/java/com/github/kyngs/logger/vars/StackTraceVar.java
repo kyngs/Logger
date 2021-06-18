@@ -1,8 +1,8 @@
-package xyz.kyngs.logger.vars;
+package com.github.kyngs.logger.vars;
 
-import xyz.kyngs.logger.LogVar;
-import xyz.kyngs.logger.util.PropertyMap;
-import xyz.kyngs.logger.util.StackTraceInfo;
+import com.github.kyngs.logger.LogVar;
+import com.github.kyngs.logger.util.PropertyMap;
+import com.github.kyngs.logger.util.StackTraceInfo;
 
 public class StackTraceVar implements LogVar {
 

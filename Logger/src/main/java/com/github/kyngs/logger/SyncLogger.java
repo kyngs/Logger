@@ -1,9 +1,9 @@
-package xyz.kyngs.logger;
+package com.github.kyngs.logger;
 
+import com.github.kyngs.logger.util.MapUtil;
+import com.github.kyngs.logger.util.PropertyMap;
 import org.fusesource.jansi.Ansi;
 import org.fusesource.jansi.AnsiConsole;
-import xyz.kyngs.logger.util.MapUtil;
-import xyz.kyngs.logger.util.PropertyMap;
 
 import java.io.PrintStream;
 import java.time.LocalTime;
