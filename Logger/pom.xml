@@ -26,7 +26,6 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 
     <repositories>
@@ -40,8 +39,8 @@
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
-            <artifactId>annotations-java5</artifactId>
-            <version>18.0.0</version>
+            <artifactId>annotations</artifactId>
+            <version>21.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.fusesource.jansi</groupId>
